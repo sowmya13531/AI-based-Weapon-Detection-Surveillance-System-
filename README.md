@@ -1,7 +1,7 @@
 ## 🔫 AI-based Weapon Detection Surveillance System
 
 [![Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-orange?logo=streamlit)](https://streamlit.io)
-[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green?logo=github)](https://github.com/ultralytics/ultralytics)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-green?logo=github)](https:/ultralytics)
 [![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)](https://python.org)
 
 A real-time AI surveillance system built with **YOLOv8** and **Streamlit** to detect weapons (guns, knives, rifles) from webcam, images, and videos.

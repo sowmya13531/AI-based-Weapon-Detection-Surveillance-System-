@@ -3,11 +3,11 @@ A real-time AI surveillance system built with **YOLOv8** and **Streamlit** to de
 > 🚨 This project helps automate threat detection for safety monitoring in public and private spaces.
 
 ## 📷 Features
-✅ Real-time webcam detection  
-✅ Upload and analyze images and videos  
-✅ Automatic logging of detected weapons with time, confidence, and source  
-✅ Downloadable detection log (CSV)  
-✅ Lightweight and easy to deploy
+- ✅ Real-time webcam detection  
+- ✅ Upload and analyze images and videos  
+- ✅ Automatic logging of detected weapons with time, confidence, and source  
+- ✅ Downloadable detection log (CSV)  
+- ✅ Lightweight and easy to deploy
 
 ## 🛠️ Tech Stack
 - **Python 3.9+**
@@ -31,28 +31,28 @@ pip install -r requirements.txt
 ```
 
 ## Run the app
-streamlit run weapon_detection_app.py
+- streamlit run weapon_detection_app.py
 
 ## 🧠 How It Works
->Loads a pretrained YOLOv8 model (best(3).pt)
->Detects weapons based on defined class mappings (gun, knife, etc.)
+- >Loads a pretrained YOLOv8 model (best(3).pt)
+- >Detects weapons based on defined class mappings (gun, knife, etc.)
 ### Supports 4 modes:
-🎥 Webcam
-🖼️ Upload Image
-🎞️ Upload Video
-📑 Upload CSV (for visualizing past detections)
+- 🎥 Webcam
+- 🖼️ Upload Image
+- 🎞️ Upload Video
+- 📑 Upload CSV (for visualizing past detections)
 
->Logs detection info into a detection_log.csv file
->Saves annotated frames if detection is successful
+- >Logs detection info into a detection_log.csv file
+- >Saves annotated frames if detection is successful
 
 ## 📁 Folder Structure
 bash
-├── app.py                  # Main Streamlit app
-├── best.pt                 # Custom YOLOv8 model file
-├── saved_frames/           # Detected frames will be stored here
-├── detection_log.csv       # Log file for all detections
-├── requirements.txt        # Dependencies
-└── README.md               # This file
+- ├── app.py                  # Main Streamlit app
+- ├── best.pt                 # Custom YOLOv8 model file
+- ├── saved_frames/           # Detected frames will be stored here
+- ├── detection_log.csv       # Log file for all detections
+- ├── requirements.txt        # Dependencies
+- └── README.md               # This file
 
 ## 🛡️ Weapon Classes Supported
 ## Class Detected	Mapped To
@@ -67,13 +67,13 @@ bash
 2025-07-30T14:22:10Z	webcam	pistol	0.91	saved_frames/pistol_1.jpg
 
 ## 🙋‍♀️ Contributing
-Pull requests are welcome! Feel free to fork the repo and submit improvements.
+- Pull requests are welcome! Feel free to fork the repo and submit improvements.
 
 ### ✨ Acknowledgments
 Ultralytics YOLOv8
 Streamlit
 
 ## 🚀 Future Enhancements
-Add real-time alert notifications via SMS or email for detected threats.
-Improve model accuracy with more diverse training data and weapon types.
-Integrate multi-camera support and cloud-based remote monitoring.
+- Add real-time alert notifications via SMS or email for detected threats.
+- Improve model accuracy with more diverse training data and weapon types.
+- Integrate multi-camera support and cloud-based remote monitoring.

@@ -22,11 +22,13 @@ A real-time AI surveillance system built with **YOLOv8** and **Streamlit** to de
 ```bash
 git clone https://github.com/sowmya13531/AI-based-Weapon-Detection-Surveillance-System-.git
 cd AI-based-Weapon-Detection-Surveillance-System-
+```
 
 ## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Run the app
 bash

@@ -62,8 +62,7 @@ bash
 Only detections matching keywords like gun, knife, rifle, etc. are logged.
 
 ## 📊 Sample Detection Log
-timestamp	source	class	confidence	frame_path
-bash
+
 2025-07-30T14:22:10Z	webcam	pistol	0.91	saved_frames/pistol_1.jpg
 
 ## 🙋‍♀️ Contributing

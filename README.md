@@ -31,7 +31,6 @@ pip install -r requirements.txt
 ```
 
 ## Run the app
-bash
 streamlit run weapon_detection_app.py
 
 ## 🧠 How It Works
@@ -70,8 +69,11 @@ bash
 ## 🙋‍♀️ Contributing
 Pull requests are welcome! Feel free to fork the repo and submit improvements.
 
-✨ Acknowledgments
+### ✨ Acknowledgments
 Ultralytics YOLOv8
 Streamlit
 
-# Futur
+## 🚀 Future Enhancements
+Add real-time alert notifications via SMS or email for detected threats.
+Improve model accuracy with more diverse training data and weapon types.
+Integrate multi-camera support and cloud-based remote monitoring.
